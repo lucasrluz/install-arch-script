@@ -1,0 +1,1 @@
+loadkeys br-abnt2
