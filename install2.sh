@@ -27,3 +27,7 @@ pacman -S networkmanager
 systemctl enable NetworkManager
 
 passwd
+
+useradd -m -g users -G wheel lucasluz
+
+passwd lucasluz
