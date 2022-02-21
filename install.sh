@@ -21,3 +21,5 @@ mount /dev/sda3 /mnt/home
 mount /dev/sda1 /mnt/boot/efi
 
 swapon /dev/sda4
+
+pacstrap /mnt base linux linux-firmware
