@@ -26,4 +26,6 @@ pacstrap /mnt base linux linux-firmware
 
 genfstab -U /mnt >> /mnt/etc/fstab
 
+cp ./install2.sh /mnt
+
 arch-chroot /mnt /install2.sh
