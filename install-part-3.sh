@@ -33,7 +33,7 @@ cp zsh/.zprofile ~/
 
 # Configure start
 mkdir ~/.config/start
-cp start/start ~/.config/start
+cp start/start.sh ~/.config/start
 
 # Configure neovim
 mkdir ~/.config/nvim
