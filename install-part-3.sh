@@ -1,5 +1,5 @@
 # Install package for personal use
-sudo pacman -Syu base-devel xorg xorg-xinit pulseaudio pavucontrol ttf-jetbrains-mono wget chromium thunar thunar-volman gvfs lxappearance git zsh neovim i3-wm rofi alacritty feh
+sudo pacman -Syu base-devel xorg xorg-xinit pulseaudio pavucontrol inter-font ttf-jetbrains-mono wget chromium thunar thunar-volman gvfs lxappearance git zsh neovim i3-wm rofi alacritty feh
 
 # Install yay
 git clone https://aur.archlinux.org/yay.git
