@@ -25,10 +25,12 @@ pacman -S networkmanager
 systemctl enable NetworkManager
 
 # Set root password
+echo "Set root password:"
 passwd
 
 # Create new user
 useradd -m -g users -G wheel lucasluz
 
 # Set the new user password
+echo "Set lucasluz password:"
 passwd lucasluz
