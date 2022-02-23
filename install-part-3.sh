@@ -26,7 +26,7 @@ cp /etc/X11/xinit/xinitrc ~/.xinitrc
 
 # Clone dotfiles
 git clone https://github.com/lucasrluz/my-configs.git
-cd dotfiles
+cd my-configs
 
 # Autostart X at login
 cp zsh/.zprofile ~/
