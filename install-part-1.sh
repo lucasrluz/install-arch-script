@@ -27,3 +27,6 @@ cp ./install-part-2.sh /mnt
 
 # Switch to the newly installed system and run the second file
 arch-chroot /mnt /install-part-2.sh
+
+# Copy Script 3 for new installation
+cp ./install-part-3.sh /mnt/home/lucasluz
