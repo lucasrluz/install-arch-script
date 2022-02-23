@@ -21,8 +21,6 @@ git clone https://github.com/reobin/typewritten.git $ZSH_CUSTOM/themes/typewritt
 ln -s "$ZSH_CUSTOM/themes/typewritten/typewritten.zsh-theme" "$ZSH_CUSTOM/themes/typewritten.zsh-theme"
 ln -s "$ZSH_CUSTOM/themes/typewritten/async.zsh" "$ZSH_CUSTOM/themes/async"
 
-echo "Set ZSH_THEME="typewritten" in your .zshrc file."
-
 # Copy xinitrc
 cp /etc/X11/xinit/xinitrc ~/.xinitrc
 
@@ -53,3 +51,6 @@ cp rofi/dmenu.rasi ~/.config/rofi
 # Configure alacritty
 mkdir ~/.config/alacritty
 cp alacritty/alacritty.yml ~/.config/alacritty
+
+echo 'Set ZSH_THEME="typewritten" in your .zshrc file.'
+echo 'Set "exec i3" in your .xinitrc file.'
