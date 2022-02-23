@@ -25,7 +25,7 @@ ln -s "$ZSH_CUSTOM/themes/typewritten/async.zsh" "$ZSH_CUSTOM/themes/async"
 cp /etc/X11/xinit/xinitrc ~/.xinitrc
 
 # Clone dotfiles
-git clone https://github.com/lucasrluz/my-config.git
+git clone https://github.com/lucasrluz/my-configs.git
 cd dotfiles
 
 # Autostart X at login
