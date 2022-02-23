@@ -22,3 +22,34 @@ ln -s "$ZSH_CUSTOM/themes/typewritten/typewritten.zsh-theme" "$ZSH_CUSTOM/themes
 ln -s "$ZSH_CUSTOM/themes/typewritten/async.zsh" "$ZSH_CUSTOM/themes/async"
 
 echo "Set ZSH_THEME="typewritten" in your .zshrc file."
+
+# Copy xinitrc
+cp /etc/X11/xinit/xinitrc ~/.xinitrc
+
+# Clone dotfiles
+git clone https://github.com/lucasrluz/my-config.git
+cd dotfiles
+
+# Autostart X at login
+cp zsh/.zprofile ~/
+
+# Configure start
+mkdir ~/.config/start
+cp start/start ~/.config/start
+
+# Configure neovim
+mkdir ~/.config/nvim
+cp nvim/init.vim ~/.config/nvim
+
+# Configure i3-wm
+mkdir ~/.config/i3
+cp i3-wm/config ~/.config/i3
+
+# Configure rofi
+mkdir ~/.config/rofi
+cp rofi/config ~/.config/rofi
+cp rofi/dmenu.rasi ~/.config/rofi
+
+# Configure alacritty
+mkdir ~/.config/alacritty
+cp alacritty/alacritty.yml ~/.config/alacritty
