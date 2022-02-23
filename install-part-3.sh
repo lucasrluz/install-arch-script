@@ -1,10 +1,6 @@
 # Install package for personal use
 sudo pacman -Syu base-devel xorg xorg-xinit pulseaudio pavucontrol ttf-jetbrains-mono wget chromium thunar thunar-volman gvfs lxappearance git zsh neovim i3-wm rofi alacritty feh
 
-# Configure git
-git config --global user.name "lucasrluz"
-git config --global user.email "lucasr.luzbr@gmail.com"
-
 # Install yay
 git clone https://aur.archlinux.org/yay.git
 cd yay
@@ -12,6 +8,10 @@ makepkg -si
 
 # Install package for personal use
 yay -S vscodium-bin spotify beekeeper-studio-bin
+
+# Configure git
+git config --global user.name "lucasrluz"
+git config --global user.email "lucasr.luzbr@gmail.com"
 
 # Install oh my zsh
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
