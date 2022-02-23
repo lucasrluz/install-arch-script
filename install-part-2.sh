@@ -38,3 +38,6 @@ passwd lucasluz
 # Install sudo
 pacman -S sudo
 echo "lucasluz ALL=(ALL) ALL" >> /etc/sudoers
+
+# Copy Script 3 for new installation
+cp install-part-3.sh /mnt/home/lucasluz
