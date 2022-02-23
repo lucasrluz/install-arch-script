@@ -34,3 +34,7 @@ useradd -m -g users -G wheel lucasluz
 # Set the new user password
 echo "Set lucasluz password:"
 passwd lucasluz
+
+# Install sudo
+pacman -S sudo
+echo "lucasluz ALL=(ALL) ALL" >> /etc/sudoers
