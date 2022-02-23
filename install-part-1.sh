@@ -23,7 +23,7 @@ pacstrap /mnt base linux linux-firmware
 genfstab -U /mnt >> /mnt/etc/fstab
 
 # Copy the second file for the advanced config process to the hdd
-cp ./install2.sh /mnt
+cp ./install-part-2.sh /mnt
 
 # Switch to the newly installed system and run the second file
-arch-chroot /mnt /install2.sh
+arch-chroot /mnt /install-part-2.sh
