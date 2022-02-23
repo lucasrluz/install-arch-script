@@ -5,3 +5,6 @@ pacman -Syu base-devel xorg xorg-xinit pulseaudio pavucontrol neovim i3-wm rofi 
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
+
+# Install package for personal use
+yay -S vscodium-bin spotify beekeeper-studio-bin
