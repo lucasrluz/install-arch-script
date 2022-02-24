@@ -17,9 +17,9 @@ git config --global user.email "lucasr.luzbr@gmail.com"
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Install and configure oh my zsh theme
-sudo git clone https://github.com/reobin/typewritten.git $ZSH_CUSTOM/themes/typewritten
-sudo ln -s "$ZSH_CUSTOM/themes/typewritten/typewritten.zsh-theme" "$ZSH_CUSTOM/themes/typewritten.zsh-theme"
-sudo ln -s "$ZSH_CUSTOM/themes/typewritten/async.zsh" "$ZSH_CUSTOM/themes/async"
+sudo git clone https://github.com/reobin/typewritten.git /home/lucasluz/.oh-my-zsh/themes/typewritten
+sudo ln -s "/home/lucasluz/.oh-my-zsh/themes/typewritten/typewritten.zsh-theme" "/home/lucasluz/.oh-my-zsh/themes/typewritten.zsh-theme"
+sudo ln -s "/home/lucasluz/.oh-my-zsh/themes/typewritten/async.zsh" "/home/lucasluz/.oh-my-zsh/themes/async"
 
 # Copy xinitrc
 cp /etc/X11/xinit/xinitrc ~/.xinitrc
