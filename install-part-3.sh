@@ -1,5 +1,5 @@
 # Install package for personal use
-sudo pacman -Syu base-devel xorg xorg-xinit pulseaudio pavucontrol inter-font ttf-jetbrains-mono wget chromium thunar thunar-volman gvfs lxappearance git zsh neovim i3-wm rofi alacritty feh
+sudo pacman -Syu base-devel xorg xorg-xinit pulseaudio pavucontrol inter-font ttf-jetbrains-mono wget chromium thunar thunar-volman gvfs lxappearance git zsh neovim i3-wm i3status rofi alacritty feh
 
 # Install yay
 git clone https://aur.archlinux.org/yay.git
@@ -42,6 +42,9 @@ cp nvim/init.vim ~/.config/nvim
 # Configure i3-wm
 mkdir ~/.config/i3
 cp i3-wm/config ~/.config/i3
+
+mkdir ~/.config/i3status
+cp i3status/config ~/.config/i3status
 
 # Configure rofi
 mkdir ~/.config/rofi
